@@ -1,0 +1,14 @@
+{
+  "id": "nexus_colony",
+  "name": "NexusColony",
+  "author": "NexusDev",
+  "version": "0.9.0-beta",
+  "description": "Remote colony management - build, upgrade, and manage all player colonies from the NexusUI overlay",
+  "gameVersion": "0.98a-RC7",
+  "modPlugin": "com.nexuscolony.ColonyModPlugin",
+  "jars": ["jars/NexusColony.jar"],
+  "dependencies": [
+    {"id": "lw_lazylib", "name": "LazyLib"},
+    {"id": "nexus_ui", "name": "NexusUI"}
+  ]
+}
